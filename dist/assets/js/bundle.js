@@ -23144,7 +23144,6 @@ var About = function (_Component) {
     value: function render() {
       var _this2 = this;
 
-      console.log(this.props.loaded);
       return React.createElement(
         'div',
         { className: 'c-about' },

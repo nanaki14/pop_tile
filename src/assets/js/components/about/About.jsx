@@ -23,7 +23,6 @@ const socials = [
 
 export default class About extends Component {
   render() {
-    console.log(this.props.loaded)
     return(
       <div className="c-about">
         <div className="c-about__inner">
