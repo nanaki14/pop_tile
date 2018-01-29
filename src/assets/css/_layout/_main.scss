@@ -1,0 +1,13 @@
+.l-main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  max-height: 800px;
+  background-color: #f2f7f9;
+  box-shadow: 0 0 100px 1px rgba(0,0,0,.1);
+  @include mq-sp {
+    box-shadow: 0 0 15px 5px rgba(0,0,0,.1);
+  }
+}
